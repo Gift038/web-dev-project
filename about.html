@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us - Toptier Gym & Health</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      color: #333;
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('./images/gym2.jpg') center/cover no-repeat fixed;
+    }
+
+    .header {
+      background: rgba(255, 255, 255, 0.95);
+      padding-bottom: 60px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #222;
+    }
+
+    .logo span {
+      color: #00c853;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 25px;
+      list-style: none;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #444;
+      font-weight: 500;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #00c853;
+    }
+
+    .about-hero {
+      color: #fff;
+      padding: 100px 40px 60px;
+      text-align: center;
+    }
+
+    .about-hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+
+    .about-hero p {
+      font-size: 18px;
+      color: #ccc;
+    }
+
+    .about-content {
+      padding: 40px 20px 80px;
+    }
+
+    .about-card {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 16px;
+      padding: 40px;
+      max-width: 900px;
+      margin: 0 auto;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-section {
+      margin-bottom: 30px;
+    }
+
+    .about-section h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #00c853;
+    }
+
+    .about-section p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    footer {
+      background-color: rgba(0,0,0,0.9);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #00c853;
+    }
+
+    footer p {
+      font-size: 14px;
+      line-height: 1.5;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    @media (max-width: 768px) {
+      .about-card {
+        padding: 20px;
+      }
+
+      .about-hero h1 {
+        font-size: 36px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="navbar">
+      <div class="logo">TOPTIER<span>HEALTH GYM</span></div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="about-hero">
+    <h1>About Toptier Health Gym</h1>
+    <p>Empowering You to Be the Best Version of Yourself</p>
+  </section>
+
+  <!-- About Content -->
+  <section class="about-content">
+    <div class="about-card">
+      <div class="about-section">
+        <h2>Who We Are</h2>
+        <p>
+          Toptier Health Gym is more than just a fitness center — we're a wellness community dedicated to helping you achieve peak health, mentally and physically. With expert trainers, premium equipment, and personalized programs, we’ve created a safe and supportive environment for transformation.
+        </p>
+      </div>
+
+      <div class="about-section">
+        <h2>Our Mission</h2>
+        <p>
+          Our mission is to empower individuals to live healthier, stronger lives through expert-led fitness programs, nutritional guidance, and a motivating gym culture that fuels consistency and self-improvement.
+        </p>
+      </div>
+
+      <div class="about-section">
+        <h2>Our Vision</h2>
+        <p>
+          We envision a world where everyone has access to the tools, education, and encouragement to reach their fitness goals and unlock a healthier future — physically, mentally, and emotionally.
+        </p>
+      </div>
+
+      <div class="about-section">
+        <h2>Core Values</h2>
+        <p>
+          <strong>Integrity.</strong> We lead with honesty and professionalism.<br>
+          <strong>Passion.</strong> We bring energy and commitment to everything we do.<br>
+          <strong>Innovation.</strong> We adapt and evolve to bring our clients the best.<br>
+          <strong>Community.</strong> We support and uplift one another every day.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <h2>Contact Us</h2>
+    <p>
+      📍 Location: Level 3 , Kikooni Street, Uganda-Kampala<br>
+      📞 Phone: +256 705194567<br>
+      📧 Email: info@toptiergym.com<br>
+      🕒 Hours: Mon - Sat: 6AM – 9PM | Sun: 8AM – 4PM
+    </p>
+  </footer>
+
+</body>
+</html>
+
